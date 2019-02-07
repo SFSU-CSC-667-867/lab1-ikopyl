@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+</head>
+
+<body>
+  Open the console to see output
+  <script>
+    const doSomethingAsync = (callback) => {
+      setTimeout(callback, 2000);
+    }
+
+    doSomethingAsync(() => {
+      alert('This happens after 2 seconds');
+    });
+  </script>
+</body>
+
+</html>
